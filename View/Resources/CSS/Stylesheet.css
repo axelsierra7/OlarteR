@@ -1,6 +1,7 @@
 /*GLOBALS*/
 :root{
     --moradoO: rgb(72, 32, 170);
+    --moradoF: rgb(53,24,126);
     --gris: #b3b1ae;
     --blanco: white;
     --principal: 'Roboto', sans-serif;
@@ -16,6 +17,7 @@ html{
 }
 body{
     background-color: var(--moradoO);
+
 }
 /*Container*/
 .container{
