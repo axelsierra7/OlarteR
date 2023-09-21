@@ -31,6 +31,7 @@
         <h1>xd</h1>
 
     </div>
+    <p>HOLA</p>
 
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
 
