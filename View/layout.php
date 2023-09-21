@@ -35,6 +35,7 @@
 
 
 
+
         <?php
         error_reporting(0);
 
@@ -53,8 +54,11 @@
 
 
 
-    </div>
+       
 
+
+    </div>
+  
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
     <script src="View/Resources/JS/Main.js"></script>
 </body>
