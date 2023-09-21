@@ -64,3 +64,489 @@ a{
 .logo{
     width: 55rem;
 }
+/*----------LOGIN--------*/
+.formulario{
+    position:absolute;
+    top:35%;
+    left:10%;
+    width:500px;
+    height: 550px;
+    background: rgb(53, 24, 126) ;
+    border-radius:35px;
+}
+.formulario h1{
+    text-align: center;
+    padding:40px 0 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 50px;
+   
+
+}
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0; 
+}
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 18px;
+    border:none;
+    background:none;
+    outline:none;
+}
+
+.username label{
+    position: absolute;
+    top:50%;
+    left: 115px;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 25px;
+    pointer-events:none;
+    transition: .5s;
+
+}
+.username span::before{
+    content:'';
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    height: 2px;
+    background: black;
+
+}
+
+
+.username input:focus ~ label,
+.username input:focus ~ label{
+    top: -5px;
+    color: black;
+}
+
+
+.username input:focus ~ span::before,
+.username input:focus ~ span::before{
+    width: 100%;
+} 
+
+
+form .contra{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0; 
+}
+.contra input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 20px;
+    border:none;
+    background:none;
+    outline:none;
+}
+
+.contra label{
+    position: absolute;
+    top:50%;
+    left: 130px;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 25px;
+    pointer-events:none;
+    transition: .5s;
+
+}
+.contra span::before{
+    content:'';
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    height: 2px;
+    background: black;
+
+}
+
+.contra input:focus ~ label,
+.contra input:focus ~ label{
+    top: -5px;
+    color: black;
+}
+
+.contra input:focus ~ span::before,
+.contra input:focus ~ span::before{
+    width: 100%;
+} 
+
+ .recordar{
+     
+     margin: -5px 0 20px 5px;
+     color: white;
+     text-align: center;
+     cursor: pointer;
+}
+ .recordar:hover{
+     text-decoration: underline;
+
+}
+
+input[type="submit"]{
+    position: relative;
+    top:30px;
+    width:50%;
+    height: 50px;
+    border: 1px solid;
+    left: 25%;
+    background: white ;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    border-color: white;
+    transition: .5s;
+}
+.registrarse{
+    margin:60px 0;
+    text-align: center;
+    font-size: 20px;
+    color:black;
+}
+.registrarse a{
+    color: white;
+    text-decoration: none;
+}
+.registrarse a :hover{
+    text-decoration: underline;
+
+}
+/*Inicio Registro*/
+.formulario2{
+    position:absolute;
+    top:35%;
+    left:10%;
+    width:500px;
+    height: 700px;
+    background: rgb(53, 24, 126) ;
+    border-radius:35px;
+}
+.formulario2 h1{
+    text-align: center;
+    padding:40px 0 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 50px;
+   
+
+}
+.formulario2 form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .nombre{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0; 
+}
+.nombre input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 18px;
+    border:none;
+    background:none;
+    outline:none;
+}
+
+.nombre label{
+    position: absolute;
+    top:50%;
+    left: 155px;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 25px;
+    pointer-events:none;
+    transition: .5s;
+
+}
+.nombre span::before{
+    content:'';
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    height: 2px;
+    background: black;
+
+}
+
+.nombre input:focus ~ label,
+.nombre input:focus ~ label{
+    top: -5px;
+    color: black;
+}
+
+.nombre input:focus ~ span::before,
+.nombre input:focus ~ span::before{
+    width: 100%;
+} 
+
+form .contraus{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0; 
+}
+.contraus input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 20px;
+    border:none;
+    background:none;
+    outline:none;
+}
+.contraus label{
+    position: absolute;
+    top:50%;
+    left: 153px;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 25px;
+    pointer-events:none;
+    transition: .5s;
+
+}
+.contraus span::before{
+    content:'';
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    height: 2px;
+    background: black;
+
+}
+
+.contraus input:focus ~ label,
+.contraus input:focus ~ label{
+    top: -5px;
+    color: black;
+}
+
+.contraus input:focus ~ span::before,
+.contraus input:focus ~ span::before{
+    width: 100%;
+} 
+
+form .telefono{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0; 
+}
+.telefono input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 18px;
+    border:none;
+    background:none;
+    outline:none;
+}
+
+.telefono label{
+    position: absolute;
+    top:50%;
+    left: 165px;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 25px;
+    pointer-events:none;
+    transition: .5s;
+
+}
+.telefono span::before{
+    content:'';
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    height: 2px;
+    background: black;
+
+}
+
+.telefono input:focus ~ label,
+.telefono input:focus ~ label{
+    top: -5px;
+    color: black;
+}
+
+.telefono input:focus ~ span::before,
+.telefono input:focus ~ span::before{
+    width: 100%;
+} 
+form .apellido{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0; 
+}
+.apellido input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 20px;
+    border:none;
+    background:none;
+    outline:none;
+}
+
+.apellido label{
+    position: absolute;
+    top:50%;
+    left: 150px;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 25px;
+    pointer-events:none;
+    transition: .5s;
+
+}
+.apellido span::before{
+    content:'';
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    height: 2px;
+    background: black;
+
+}
+
+.apellido input:focus ~ label,
+.apellido input:focus ~ label{
+    top: -5px;
+    color: black;
+}
+
+.apellido input:focus ~ span::before,
+.apellido input:focus ~ span::before{
+    width: 100%;
+} 
+
+form .correo{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0; 
+}
+.correo input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 20px;
+    border:none;
+    background:none;
+    outline:none;
+}
+
+.correo label{
+    position: absolute;
+    top:50%;
+    left: 110px;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 25px;
+    pointer-events:none;
+    transition: .5s;
+
+}
+.correo span::before{
+    content:'';
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    height: 10px;
+    background: black;
+
+}
+
+.correo input:focus ~ label,
+.correo input:focus ~ label{
+    top: -5px;
+    color: black;
+}
+
+.correo input:focus ~ span::before,
+.correo input:focus ~ span::before{
+    width: 100%;
+} 
+.verificar{
+     
+     margin: -5px 0 20px 5px;
+     color: white;
+     text-align: center;
+     cursor: pointer;
+     font-size: 25px;
+}
+
+
+input[type="submit"]{
+    position: relative;
+    top:30px;
+    width:50%;
+    height: 50px;
+    border: 1px solid;
+    left: 25%;
+    background: white ;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    border-color: white;
+    transition: .5s;
+}
+.promos{
+    position: absolute;
+    background: rgba(53, 24, 126, 0.562) ;
+    top: 35%;
+    width: 700px;
+    height: 650px;
+    left: 60%;
+}
+.promos h1{
+    text-align: center;
+    padding:40px 0 15px 0;
+    color: white;
+    font-size: 50px;
+}
+.promos p{
+    position:relative;
+    text-align: center;
+    font-size: 40px;
+    padding:40px 0 50px 80px;
+}
+.promos img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 20px;
+}
+.camioneta {
+    position: absolute;
+    top: 300px;
+    width: 800px;
+    left: 50%;
+}

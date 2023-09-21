@@ -24,7 +24,29 @@
 
 <body>
 
-    <?php include "View/Modules/header.php" ?>
+    <header>
+        <div class="barra-cabecera">
+            <ul class="menu">
+                <a href="login.php"><img alt=""><i class="fa-solid fa-bars fa-2xl"></i></a>
+                <a href="catalogo.php"><img alt=""><i class="fa-solid fa-book-bookmark fa-2xl"></i></a>
+                <img class="logo" src="View/Resources/Img/LOGO1.png" alt="Logo">
+
+
+
+
+
+
+
+                <a href="login.php"><img class="carrito" src="" alt="">
+                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                </a>
+                <a href="login.php"><img class="auto" src="View/Resources/Img/" alt="">
+                    <i class="fa-solid fa-car fa-2xl"></i>
+                </a>
+            </ul>
+
+        </div>
+    </header>
 
     <div class="container">
 
@@ -35,28 +57,11 @@
 
 
 
-        <?php
-        error_reporting(0);
-
-        if (isset($_GET["pagina"])) {
-
-            if (
-                $_GET["pagina"] == "usuario" ||
-                $_GET["pagina"] == "roles"
-            ) {
-
-                include "Pages/" . $_GET["pagina"] . ".php";
-            }
-        } else ($_GET == null)[include 'Pages/prueba.php']
-
-        ?>
-
-
 
     </div>
 
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
-    <script src="View/Resources/JS/Main.js"></script>
+
 </body>
 
 

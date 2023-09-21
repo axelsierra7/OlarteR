@@ -1,6 +1,11 @@
 <?php
 
-include "Controller/layout.controller.php";
+error_reporting(0);
+session_start();
+$actualsesion = $_SESSION['correo'];
 
-$plantilla = new controllerLayout();
-$plantilla->ctrLayout();
+if ($actualsesion == null || $actualsesion == '') {
+    header('location: nouser.php');
+} else {
+    header('location: inicio.php');
+}
