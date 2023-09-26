@@ -29,6 +29,8 @@
     <div class="container">
 
 
+
+
         <?php
         error_reporting(0);
 
@@ -36,8 +38,10 @@
 
             if (
                 $_GET["pagina"] == "usuario" ||
+
                 $_GET["pagina"] == "roles" ||
                 $_GET["pagina"] == "catalog"
+
             ) {
 
                 include "Pages/" . $_GET["pagina"] . ".php";
@@ -45,10 +49,6 @@
         } else ($_GET == null)[include 'Pages/prueba.php']
 
         ?>
-
-
-
-
 
 
     </div>

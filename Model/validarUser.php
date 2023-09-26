@@ -1,5 +1,5 @@
 <?php
-session_start();                   //SCRIPT QUE USAMOS PARA VALIDAR EL LOGIN ---------------------
+session_start();
 $user = $_POST['mail'];
 $pass = $_POST['pass'];
 
@@ -21,6 +21,7 @@ if ($filas['rol'] == 1) {
 
 
 ?>
+
         <?php header("<h1>ERROR</h1>"); ?>
     
                 <?php
