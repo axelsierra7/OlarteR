@@ -1,3 +1,1 @@
-<h2>adasd</h2>
-<h2>adasd</h2>
-<h2>adasd</h2>
+<H1>INICIO</H1>

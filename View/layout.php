@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!------------------Layout o plantilla principal del sistema ----------------->
 <html lang="es">
 
 <head>
@@ -15,7 +15,7 @@
     <!-- HOJA DE ESTILOS -->
     <link rel="preload" href="View/Resources/CSS/Stylesheet.css" as="style">
     <link rel="stylesheet" href="View/Resources/CSS/Stylesheet.css">
-
+    <!-- FUENTES Y RECURSOS JS O MAS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -29,12 +29,6 @@
     <div class="container">
 
 
-
-
-
-
-
-
         <?php
         error_reporting(0);
 
@@ -42,7 +36,8 @@
 
             if (
                 $_GET["pagina"] == "usuario" ||
-                $_GET["pagina"] == "roles"
+                $_GET["pagina"] == "roles" ||
+                $_GET["pagina"] == "catalog"
             ) {
 
                 include "Pages/" . $_GET["pagina"] . ".php";
@@ -55,6 +50,7 @@
 
     </div>
 
+    <!--------------------------------------- SCRIPTS ----------------------------------------->
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
     <script src="View/Resources/JS/Main.js"></script>
 </body>
