@@ -21,14 +21,12 @@ if ($filas['rol'] == 1) {
 
 
 ?>
-<?php header("<h1>ERROR</h1>"); ?>
+
+        <?php header("<h1>ERROR</h1>"); ?>
     
-<?php
-}
+                <?php
+            }
 
-
-mysqli_free_result($resultado);
-mysqli_close($conexion);
-
-
-?>
+            mysqli_free_result($resultado);
+            mysqli_close($conexion);
+                ?>
