@@ -48,9 +48,11 @@
 
 
 
-    </div>
 
-    <!--------------------------------------- SCRIPTS ----------------------------------------->
+
+
+    </div>
+    <!-- SCRIPTS DE JS -->
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
     <script src="View/Resources/JS/Main.js"></script>
 </body>
