@@ -18,6 +18,7 @@ html{
 }
 body{
     background-color: var(--moradoO);
+    justify-content: center;
 
 }
 /*Container*/
@@ -64,4 +65,29 @@ a{
 }
 .logo{
     width: 55rem;
+}
+/*SLIDER*/
+.contenditems{
+    margin-top: 60px;
+    width: 1200px;
+    height: 300px;
+    background-color: var(--moradoF);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.66);
+    border-radius: 15px;
+    overflow:hidden;
+}
+.itemCarrusel{
+    width: 300%;
+    height: 100%;
+    display: flex;
+}
+.elemento{
+    width: calc(100% / 3);
+    height: 100%;
+}
+.elemento img{
+    width: 1200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
 }
