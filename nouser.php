@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!------------------Layout o plantilla principal del sistema ----------------->
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -15,7 +15,7 @@
     <!-- HOJA DE ESTILOS -->
     <link rel="preload" href="View/Resources/CSS/Stylesheet.css" as="style">
     <link rel="stylesheet" href="View/Resources/CSS/Stylesheet.css">
-    <!-- FUENTES Y RECURSOS JS O MAS -->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -24,47 +24,44 @@
 
 <body>
 
-    <?php include "View/Modules/header.php" ?>
-    
-    
+    <header>
+        <div class="barra-cabecera">
+            <ul class="menu">
+                <a href="login.php"><img alt=""><i class="fa-solid fa-bars fa-2xl"></i></a>
+                <a href="catalogo.php"><img alt=""><i class="fa-solid fa-book-bookmark fa-2xl"></i></a>
+                <img class="logo" src="View/Resources/Img/LOGO1.png" alt="Logo">
+
+
+
+
+
+
+
+                <a href="login.php"><img class="carrito" src="" alt="">
+                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                </a>
+                <a href="login.php"><img class="auto" src="View/Resources/Img/" alt="">
+                    <i class="fa-solid fa-car fa-2xl"></i>
+                </a>
+            </ul>
+
+        </div>
+    </header>
 
     <div class="container">
-    <?php include "View/Pages/inicio.php" ?>
-    <?php include "View/Modules/slider.php" ?>
 
 
 
 
-        <?php
-        error_reporting(0);
 
-        if (isset($_GET["pagina"])) {
 
-            if (
-                $_GET["pagina"] == "usuario" ||
 
-                $_GET["pagina"] == "roles" ||
-                $_GET["pagina"] == "catalog"
-
-            ) {
-
-                include "Pages/" . $_GET["pagina"] . ".php";
-            }
-        } else ($_GET == null)[include 'Pages/prueba.php']
-
-        ?>
 
 
     </div>
-<<<<<<< HEAD
-    <p>HOLA</p>
-    
 
-=======
-    <!-- SCRIPTS DE JS -->
->>>>>>> 5ebf200f401d4278c1702d7a269741b771c6d4ce
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
-    <script src="View/Resources/JS/Main.js"></script>
+
 </body>
 
 
