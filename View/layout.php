@@ -25,13 +25,18 @@
 <body>
 
     <?php include "View/Modules/header.php" ?>
+    
+    
 
     <div class="container">
+    <?php include "View/Pages/inicio.php" ?>
+    <?php include "View/Modules/slider.php" ?>
 
 
 
     </div>
     <p>HOLA</p>
+    
 
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
 
