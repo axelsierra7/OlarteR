@@ -57,12 +57,16 @@
 
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- SCRIPTS DE JS -->
 =======
     <p>HOLA</p>
     
 
 >>>>>>> 802fb0e (agregue un hola al layout)
+=======
+
+>>>>>>> 21e37bb48192a7c57d495e34cd555d282b1d50cc
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
     <script src="View/Resources/JS/Main.js"></script>
 </body>
