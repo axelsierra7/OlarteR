@@ -52,7 +52,12 @@
 
 
     </div>
+<<<<<<< HEAD
     <!-- SCRIPTS DE JS -->
+=======
+    <p>HOLA</p>
+
+>>>>>>> 802fb0e (agregue un hola al layout)
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
     <script src="View/Resources/JS/Main.js"></script>
 </body>
