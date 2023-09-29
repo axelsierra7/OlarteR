@@ -56,13 +56,7 @@
 
 
     </div>
-<<<<<<< HEAD
-    <p>HOLA</p>
-    
 
-=======
-    <!-- SCRIPTS DE JS -->
->>>>>>> 5ebf200f401d4278c1702d7a269741b771c6d4ce
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
     <script src="View/Resources/JS/Main.js"></script>
 </body>
