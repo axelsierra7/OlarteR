@@ -26,8 +26,9 @@
 
     <?php include "View/Modules/header.php" ?>
 
-    <div class="container">
 
+    <div class="container">
+        <div class="separador"></div>
 
 
 
