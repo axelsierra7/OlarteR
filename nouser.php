@@ -25,24 +25,46 @@
 <body>
 
     <header>
+        <div class="sidebar" id="sidebar">
+            <div class="content_siderbar"> <!--sidebar INICIO -->
+
+                <ul>
+                    <li><a href="">Iniciar Sesion</a></li>
+                    <li><a href="">registrarse</a></li>
+                </ul>
+                <hr>
+                <p class="side_titu">Categorias</p>
+                <hr>
+                <p class="side_titu">Promociones</p>
+                <hr>
+                <p class="side_titu">Encuentranos</p>
+                <hr>
+                <p class="side_titu">Contactános</p>
+
+
+            </div>
+        </div>
         <div class="barra-cabecera">
             <ul class="menu">
-                <a href="login.php"><img alt=""><i class="fa-solid fa-bars fa-2xl"></i></a>
-                <a href="catalogo.php"><img alt=""><i class="fa-solid fa-book-bookmark fa-2xl"></i></a>
-                <img class="logo" src="View/Resources/Img/LOGO1.png" alt="Logo">
+                <a href="./nouser.php">
+                    <img class="logo" src="View/Resources/Img/iconos/Logo_Olarte.png" alt="Logo"></a>
 
+                <div class="search">
+                    <input type="search" class="search__input" placeholder="Busca tu Archivo" id="Buscador">
+                </div>
 
-
-
-
-
-
+                <a href="inicio.php?pagina=catalog"><img alt=""><i class="fa-solid fa-book-bookmark fa-xl"></i></a>
                 <a href="login.php"><img class="carrito" src="" alt="">
-                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
                 </a>
                 <a href="login.php"><img class="auto" src="View/Resources/Img/" alt="">
-                    <i class="fa-solid fa-car fa-2xl"></i>
+                    <i class="fa-solid fa-car fa-xl"></i>
                 </a>
+                <input onclick="mostrarSidebar()" type="checkbox" id="check">
+                <label for="check"><i class="fa-solid fa-bars fa-xl" id="btn"></i></label>
+                <!-- CERRAR-->
+                <input type="checkbox" id="cancel">
+                <label onclick="ocultarSidebar()" class="cancel" for="cancel"><i class="fa-solid fa-circle-xmark fa-2xl" id="cancel-btn" style="color: #ff0000;"></i></label>
             </ul>
 
         </div>
@@ -61,7 +83,7 @@
     </div>
 
     <script src="https://kit.fontawesome.com/f8ecd0f0cc.js" crossorigin="anonymous"></script>
-
+    <script src="View/Resources/JS/Main.js"></script>
 </body>
 
 

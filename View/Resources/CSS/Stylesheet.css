@@ -1,13 +1,18 @@
 /*Ejemplo y prueba*/
 /*GLOBALS*/
 :root{
-    --moradoO: rgb(72, 32, 170);
-    --moradoF: rgb(53,24,126);
-    --gris: #b3b1ae;
+    --moradoO: #cc0000;
+    --moradoF: #fc4b08;
+    --gris: #ff7d39;
+    --azul: #013473;
     --blanco: white;
     --principal: 'Roboto', sans-serif;
+    --titulo: 'Hanson';
 
-
+}
+@font-face {
+    font-family: 'Hanson';
+    src: url('../Fonts/Hanson-Bold/Hanson-Bold.ttf')
 }
 html{
     box-sizing: border-box;
@@ -17,11 +22,13 @@ html{
     box-sizing: inherit;
 }
 body{
-    background-color: var(--moradoO);
+    background-color: var(--blanco);
 
 }
 /*Container*/
 .container{
+    position: inherit;
+    top: 12vh;
     max-width: 150rem;
     width: 95%;
     width: min(95%, 150rem);
@@ -44,8 +51,12 @@ a{
   .borde{ border-radius: 3rem;}
   /*HEADER*/
   .barra-cabecera{/*Barra pagina principal*/
-    margin-top:95px;
-    background: var(--gris);
+    position: fixed;
+    background: var(--azul);
+    width: 100%;
+    height: 10rem;
+}
+.separador{
     width: 100%;
     height: 10rem;
 }
@@ -58,10 +69,64 @@ a{
     width: 90%;
 }
 .menu a{
-    color: var(--blanco);
+    color: var(--gris);
     font-size: 2rem;
     font-weight: bold;
 }
-.logo{
-    width: 55rem;
+.menu a:hover{
+color: var(--moradoF);
 }
+.logo{
+    width: 13rem;
+}
+.search{
+    margin: 3rem;
+
+}
+.search__input{
+    background-color: var(--blanco);
+    border: 0;
+    color: var(--azul);
+    font-family: var(--principal);
+    font-weight: 200;
+    height: 3rem;
+    width: 25rem;
+    border-radius: 4rem;
+    text-align: left;
+    padding: 2rem;
+}
+
+/*SIDER DE MENU*/
+#check,#cancel{
+    display: none;
+}
+label #btn{
+position: absolute;
+cursor: pointer;
+color: var(--gris);
+font-size: 3rem;
+display: block;
+}
+label #cancel-btn{
+    position: absolute;
+    cursor: pointer;
+    color: var(--gris);
+    font-size: 3rem;
+    display: none;
+    }
+label #btn:hover{color: var(--moradoF);}
+label #cancel:hover{color: var(--moradoF);}
+.sidebar{
+    position: fixed;
+    background-color: var(--moradoF);
+    width: 30rem;
+    height: 100vh;
+    right: 0;
+    font-family: var(--principal);
+    text-align: right;
+    padding: 2rem;
+    display: none;
+    transition: all .5s ease;
+}
+.content_siderbar{position: relative;top: 10rem;}
+.side_titu{font-family: var(--titulo); color: black;}
